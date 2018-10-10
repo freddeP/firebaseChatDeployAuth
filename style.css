@@ -1,0 +1,40 @@
+*{
+    font-family: "century gothic";
+    margin:0;
+    box-sizing: border-box;
+}
+
+main input, main textarea{
+    width: 100%;
+    padding:1%;
+    font-size:19px;
+    color:#505050;
+}
+
+header,footer{
+    min-height: 4vh;
+    text-align: center;
+    color:white;
+    background:#404040;
+}
+
+.chat{
+    width:60%;
+    margin:auto;
+
+}
+
+.chatMessages{
+    height:60vh;
+    border:1px solid #eee;
+    overflow-y:scroll; 
+    ;
+}
+.chatMessages div{
+    padding:3%;
+    border-bottom:dashed 1px rgb(248, 248, 188);
+}
+
+.chatForm{
+    height:32vh;
+}

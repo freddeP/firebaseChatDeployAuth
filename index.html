@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script src ="firebase.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <h2>My Firebase Chat</h2>
+    </header>
+    <main>
+
+        <div class="chat chatMessages">
+                    <!-- här kommer våra chatmeddelanden att skrivas ut -->
+        
+        </div>
+        <div class="chat chatForm">      
+            <form action="" method="post" id = "chatForm">
+                <input type="text" id="name" placeholder=" your name" required>
+                <textarea required  id="message" placeholder="chat message"></textarea>
+                <input type="submit" value="send chat message">
+            </form>
+        </div>
+ 
+    </main>
+    <footer>
+        <h4>the end of page</h4>
+    </footer>
+
+
+    
+</body>
+</html>
